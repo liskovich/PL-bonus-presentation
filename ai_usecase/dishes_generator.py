@@ -3,7 +3,6 @@ from typing import List
 from dotenv import load_dotenv
 
 from llama_index.program import OpenAIPydanticProgram
-from llama_index.extractors import PydanticProgramExtractor
 from llama_index.llms import OpenAI
 
 load_dotenv()
